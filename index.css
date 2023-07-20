@@ -2,6 +2,9 @@
     background-color: #0E1014;
     box-sizing: border-box;
     padding-top: 46px;
+    box-sizing: border-box;
+    padding-left: 147px;
+    padding-right: 148px;
 }
 
 .header {
@@ -10,18 +13,27 @@
     display: flex;
 }
 
+.header__logo-box {
+    /* max-width: 135px; */
+}
+
+.header__logo {
+    display: flex;
+    gap: 8px;
+}
+
 .header__slogan {
     color: #E4E5EA;
-    max-width: 165px;
+    max-width: 135px;
     font-family: Montserrat;
     font-size: 10px;
     font-style: normal;
     font-weight: 300;
     line-height: normal;
+    
 }
 
 .header__nav {
-    border: 1px solid red;
     max-width: 503px;
     margin-left: 52px;
 }
@@ -41,6 +53,7 @@
     /* justify-content: space-between; */
     padding: 0;
     gap: 30px;
+    margin: 4px 0 0 0;
 }
 
 .header__contacts {
@@ -55,12 +68,15 @@
     font-weight: 500;
     line-height: normal;
     color: #E4E5EA;
+    min-width: 145px;
+    margin: 3px 0 0 3px;
 }
 
 .header__social {
     display: flex;
     gap: 30px;
-    margin-left: 47px;
+    margin: 3px 0 0 46px;
+    padding: 0;
 }
 
 .header__list-element {

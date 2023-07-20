@@ -1,0 +1,15 @@
+@font-face {
+	font-family: "Montserrat";	
+	font-weight: 300;
+	font-style: normal;
+    src: url(./monsterrat/Montserrat-Light.woff) format("woff"),
+         url(./monsterrat/Montserrat-Light.woff2) format("woff2");
+}
+
+@font-face {
+    font-family: "Inter";
+    font-weight: 500;
+    font-style: normal;
+    src: url(./inter/Inter-Medium.woff) format("woff"),
+         url(./inter/Inter-Medium.woff2) format("woff2");
+}
