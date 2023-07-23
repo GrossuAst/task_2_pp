@@ -1,3 +1,5 @@
+/* шрифты Monsterrat */
+
 @font-face {
 	font-family: "Montserrat";	
 	font-weight: 300;
@@ -7,9 +9,59 @@
 }
 
 @font-face {
+	font-family: 'Montserrat';
+	src: url(./monsterrat/Montserrat-Regular.woff) format('woff'),
+         url(./monsterrat/Montserrat-Regular.woff2) format('woff2');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url(./monsterrat/Montserrat-Medium.woff) format('woff'),
+         url(./monsterrat/Montserrat-Medium.woff2) format('woff2');
+	font-weight: 500;
+	font-style: normal;
+}
+
+/* шрифты Inter */
+
+@font-face {
     font-family: "Inter";
     font-weight: 500;
     font-style: normal;
     src: url(./inter/Inter-Medium.woff) format("woff"),
          url(./inter/Inter-Medium.woff2) format("woff2");
+}
+
+@font-face {
+    font-family: "Inter";
+    font-weight: 400;
+    font-style: normal;
+    src: url(./inter/Inter-Medium.woff) format("woff"),
+         url(./inter/Inter-Medium.woff2) format("woff2");
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url(./inter/Inter-Regular.woff2) format('woff2'),
+         url(./inter/Inter-Regular.woff) format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url(./inter/Inter-Black.woff2) format('woff2'),
+         url(./inter/Inter-Black.woff) format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url(./inter/Inter-Bold.woff2) format('woff2'),
+         url(./inter/Inter-Bold.woff2) format('woff');
+    font-weight: 700;
+    font-style: normal;
 }
